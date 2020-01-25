@@ -3,6 +3,7 @@
     "name": "Hide Youtube Endcard",
     "version": "0.1",
     "content_scripts": [{
+        "run_at": "document_idle",
         "matches": [
             "*://*.youtube.com/*"
         ],
